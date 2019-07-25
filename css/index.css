@@ -153,6 +153,73 @@ header nav a {
     width: 100%;
 }
 
+.services-header-img {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.service {
+    margin: 30px 0px 30px 0px;
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+}
+
+.service h3 {
+	font-size: 25pt;
+}
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	padding-bottom: 40px;
+}
+
+.content div {
+	width: 45%;
+	background: lightgray;
+	border: 1px solid black;
+	margin-top: 40px;
+	padding: 20px;
+}
+
+.content div button{
+	background: whitesmoke;
+	border: 1px solid black;
+	width: 140px;
+	margin: 20px;
+	margin-left: 0px;
+	padding: 5px;
+}
+
+.facts {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.facts div {
+	width: 45%;
+}
+
+.facts .about p {
+	margin-bottom: 20px;
+}
+
+.facts .about ul {
+	margin-left: 20px;
+}
+
+.facts .about ul li {
+	margin-bottom: 10px;
+	list-style-type: disc;
+}
+
+.facts .image img {
+	width: 100%;
+}
+
 @media(max-width: 800px){
 
 .container {
@@ -213,7 +280,8 @@ header nav .logo {
 
     header nav a {
         border-top: 1px solid silver;
-        padding-top: 10px;
+        padding: 15px;
+        height: 25px;
     }
     
     .sub img {
@@ -241,6 +309,30 @@ header nav .logo {
     .bottom_content div {
         width: 100%;
         margin-bottom: 50px;
+    }
+
+    .content {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .content div {
+        width: 97%;
+        margin: auto;
+        margin: 10px 0px 10px 0px;
+        justify-content: space-around;
+    }
+
+    .facts  {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .facts div {
+        margin: auto;
+        width: 100%;
     }
 
 }
