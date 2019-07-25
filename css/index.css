@@ -69,6 +69,10 @@ h1, h2, h3, h4, h5 {
     display: none;
 }
 
+.logo2 {
+    display: none;
+}
+
 header nav {
 	display: flex;
 	justify-content: space-around;
@@ -107,11 +111,12 @@ header nav a {
 
 .top_content {
 	display: flex;
-	margin-top: 50px;
+    margin-top: 50px;
+    justify-content: space-between;
 }
 
 .top_content div {
-    width: 
+    width: 49%;
 }
 
 .middle-img {
@@ -125,6 +130,10 @@ header nav a {
 	margin: 5px;
 	border-bottom: 1px solid black;
 	padding-bottom: 50px;
+}
+
+.bottom_content div {
+    width: 33%;
 }
 
 .contact {
@@ -183,6 +192,61 @@ header nav .logo {
 
 @media(max-width: 500px){
 
+    .container {
+        width: 97%;
+        margin: auto;
+        border: 1px solid red;
+    }
+    
+    .logo1 {
+        display: none;
+    }
+    
+    header nav .logo {
+        display: none;
+    }
 
+    header nav .logo2 {
+        display: flex;
+    }
+
+    header nav {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1 px solid black;
+    }
+
+    header nav a {
+        justify-content: center;
+        border-bottom: 1 px solid black;
+    }
+    
+    .sub img {
+        display: none;
+    }
+
+    .top_content {
+        margin: auto;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top_content div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .bottom_content {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom_content div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 
 }
