@@ -156,9 +156,9 @@ header nav a {
 @media(max-width: 800px){
 
 .container {
-    width: 97%;
+    width: 99%;
     margin: auto;
-    border: 1px solid red;
+    //border: 1px solid red;
 }
 
 .logo1 {
@@ -193,33 +193,27 @@ header nav .logo {
 @media(max-width: 500px){
 
     .container {
-        width: 97%;
+        width: 99%;
         margin: auto;
-        border: 1px solid red;
-    }
-    
-    .logo1 {
-        display: none;
-    }
-    
-    header nav .logo {
-        display: none;
+        //border: 1px solid red;
     }
 
-    header nav .logo2 {
-        display: flex;
-    }
-
-    header nav {
+    header {
         margin: auto;
         display: flex;
         flex-direction: column;
-        border-bottom: 1 px solid black;
+        border-bottom: 1px solid silver;
+        padding-bottom: 20px;
+    }
+
+    header nav {
+        flex-direction: column;
+        text-align: center;
     }
 
     header nav a {
-        justify-content: center;
-        border-bottom: 1 px solid black;
+        border-top: 1px solid silver;
+        padding-top: 10px;
     }
     
     .sub img {
@@ -235,7 +229,7 @@ header nav .logo {
 
     .top_content div {
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
 
     .bottom_content {
@@ -246,7 +240,7 @@ header nav .logo {
 
     .bottom_content div {
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
 
 }
